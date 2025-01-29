@@ -829,14 +829,6 @@ public void RemovePassword()
     {
         var builder = WebApplication.CreateBuilder();
 
-        builder.Services.AddCors(options =>
-        {
-            options.AddPolicy("AllowLocalhost3001",
-                policy => policy
-                    .WithOrigins("http://localhost:3001") // Allow requests from your frontend URL
-                    .AllowAnyHeader() // Allow any headers
-                    .AllowAnyMethod()); // Allow any HTTP methods
-        });
 
         builder.Services.AddCors(options =>
         {
@@ -849,7 +841,6 @@ public void RemovePassword()
 
 
         var app = builder.Build();
-        app.UseCors("AllowLocalhost3001");
         app.UseCors("AllowLocalhost3000");
 
 
