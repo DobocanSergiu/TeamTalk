@@ -1,0 +1,39 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+  background-color: #89badb;
+  font-weight: bold;
+  color: white;
+  height: 5%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f9c784;
+
+}
+.username {
+  width: 70%;
+  height: 100%;
+  overflow-x: hidden;
+
+
+}
+.username:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.dashboard {
+  width: 2em;
+  height: 2em;
+  padding: 0 20px 0 0;
+}
+.dashboard:hover {
+  cursor: pointer;
+}
+
+.logoutDoor {
+  width: 2em;
+  height: 2em;
+}
+.logoutDoor:hover {
+  cursor: pointer;
+}

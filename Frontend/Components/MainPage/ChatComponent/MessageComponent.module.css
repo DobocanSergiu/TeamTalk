@@ -1,0 +1,24 @@
+.parent {
+  background-color: #3e517a;
+  border-radius: 5px;
+  color: white;
+  max-height: 20%;
+  max-width: 95%;
+  margin-bottom: 1em;
+}
+
+.username {
+  max-height: 2em;
+  font-weight: bold;
+  border-bottom: thin solid #f9c784;
+}
+
+.message {
+  min-height: 2em;
+  max-height: 5em;
+  overflow-y: auto;
+  word-break: break-word;
+  font-size: 1rem; /* Adjust font size for readability */
+  line-height: 1.5; /* Increase line height for better spacing */
+  padding: 0.5em; /* Add padding for text separation from edges */
+}

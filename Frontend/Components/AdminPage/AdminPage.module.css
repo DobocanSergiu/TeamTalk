@@ -1,0 +1,18 @@
+.parent{
+    max-height: 100vh;
+    background-color: #3e517a;
+    color: white;
+    overflow-x: hidden;
+}
+
+.noteWarning{
+    color: red;
+}
+
+.errorMessage{
+    color: red;
+}
+
+.successMessage{
+    color: #39FF14;
+}

@@ -1,0 +1,73 @@
+.parent {
+  background-color: #242f47;
+  width: 70%;
+  height: 100%;
+}
+
+.header {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  background-color: #3e517a;
+  border-bottom: 1px solid #f9c784;
+}
+
+.chatContainer {
+  height: 80%;
+  list-style: none;
+  overflow-y: auto;
+}
+
+.messageInput {
+  background-color: #3e517a;
+  border-color: #b29a80;
+  border-radius: 5px;
+  width: 65%;
+  height: 3em;
+  color: white;
+}
+
+input[type="file"] {
+  display: none;
+}
+.attachmentInput {
+  border: 1px solid #b29a80;
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #3e517a;
+  font-style: italic;
+  font-weight: bold;
+  width: 50px;
+  height: 25px;
+}
+
+.attachmentInput:hover {
+  background-color: #93a4c8;
+  cursor: pointer;
+}
+
+.sendButton {
+  background-color: #3e517a;
+  border-radius: 5px;
+  border-color: #b29a80;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  height: 39px;
+  width: 80px;
+}
+
+.sendButton:hover {
+  background-color: #93a4c8;
+  cursor: pointer;
+}
+
+.fileUploadedText {
+  max-width: 200px;
+  max-height: 200px;
+  color: #ffffff;
+  overflow-x: auto;
+}

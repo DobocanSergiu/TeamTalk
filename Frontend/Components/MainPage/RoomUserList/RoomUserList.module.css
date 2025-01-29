@@ -1,0 +1,46 @@
+.parent {
+  background-color: #3e517a;
+  height: 50%;
+}
+.header {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.separator {
+  border-top: 1px solid #f9c784;
+}
+
+.listContainer {
+  max-height: 43vh;
+  overflow-x: hidden;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: #ffffff;
+  background-color: #495f90;
+  border-radius: 5px;
+  margin: 3px;
+  min-height: 30px;
+  flex-grow: 1;
+  min-width: 10vw;
+  max-height: 30px;
+  max-width: 10vw;
+  overflow: hidden;
+}
+
+.listItem > div {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.listItem img {
+  width: 20px;
+  object-fit: cover;
+  padding: 5px; /* Added padding to match the div */
+}

@@ -1,0 +1,61 @@
+.parent {
+  background-color: #3e517a;
+  height: 50%;
+  border-bottom-color: #f9c784;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.header {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  font-style: italic;
+}
+.header:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.separator {
+  border-top: 1px solid #f9c784;
+}
+
+.listContainer {
+  overflow-x: hidden;
+  max-height: 43vh;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: #ffffff;
+  background-color: #495f90;
+  border-radius: 5px;
+  margin: 3px;
+  min-height: 30px;
+  flex-grow: 1;
+  min-width: 10vw;
+  max-height: 30px;
+  max-width: 10vw;
+  overflow: hidden;
+}
+
+.listItem > div {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  font-size: clamp(5px, 12px, 30px);
+}
+
+.listItem img {
+  width: 20px;
+  object-fit: cover;
+  padding: 5px; /* Added padding to match the div */
+}
+
+.listItem:hover {
+  cursor: pointer;
+  background-color: #93a4c8;
+}

@@ -1,0 +1,38 @@
+.parent {
+  background-color: #3e517a;
+  height: 100%;
+}
+
+.header {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.separator {
+  border-top: 1px solid #f9c784;
+}
+
+.listContainer {
+  max-height: 90vh;
+  overflow-x: hidden;
+}
+.listItem {
+  list-style: none;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 5px 10px;
+  width: 75%;
+  background-color: #495f90;
+  font-style: italic;
+  min-width: 10vw;
+  max-width: 10vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.listItem:hover {
+  cursor: pointer;
+  background-color: #93a4c8;
+}

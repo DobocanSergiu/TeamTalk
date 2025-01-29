@@ -1,0 +1,156 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #242f47;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  height: 80%;
+}
+
+.searchBar {
+  width: 50%;
+  height: 2em;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #e1b882;
+  background-color: #495f90;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.modalLists {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90%;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.roomListContainer,
+.fileListContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Set fixed height */
+  min-height: 400px; /* Ensure minimum height */
+}
+
+.roomListContainer {
+  width: 15vw; /* Fixed width for room list */
+}
+
+.fileListContainer {
+  width: 45vw; /* Fixed width for file list */
+}
+
+.roomListHeader,
+.fileListHeader {
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  height: 30px; /* Fixed height for headers */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roomsList,
+.fileList {
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+  min-height: 200px; /* Minimum height for lists */
+  background-color: rgba(73, 95, 144, 0.1); /* Subtle background to show container */
+  border-radius: 5px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.roomListItem {
+  list-style: none;
+  color: #ffffff;
+  background-color: #495f90;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 5px 10px;
+  width: calc(100% - 20px); /* Account for padding */
+  font-style: italic;
+  text-align: left;
+}
+
+.roomListItem:hover {
+  cursor: pointer;
+  background-color: #93a4c8;
+}
+
+.fileListItem {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: #ffffff;
+  background-color: #495f90;
+  border-radius: 5px;
+  margin: 3px;
+  min-height: 30px;
+  max-height: 30px;
+  width: calc(100% - 6px); /* Account for margins */
+  overflow: hidden;
+}
+
+.fileListItem > div {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  font-size: clamp(5px, 12px, 30px);
+}
+
+.fileListItem img {
+  width: 20px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.fileListItem:hover {
+  cursor: pointer;
+  background-color: #93a4c8;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+.closeButton {
+  height: 2rem;
+  width: 200px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  background-color: #0056b3;
+}

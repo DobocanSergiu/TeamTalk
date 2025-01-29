@@ -1,0 +1,43 @@
+.parent {
+  margin: 8px 0;
+  list-style: none;
+  background-color: #3e517a;
+  border-radius: 8px;
+  max-width: 95%;
+  cursor: pointer;
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: white;
+  border-bottom: thin solid #f9c784;
+}
+
+.fileContainer {
+  display: flex;
+  align-items: center;
+  background-color: #899bc3;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.fileIcon {
+  margin-right: 12px;
+  color: #6c757d;
+}
+
+.fileInfo {
+  flex: 1;
+}
+
+.fileName {
+  font-weight: 500;
+  margin-bottom: 4px;
+  word-break: break-word;
+}
+
+.fileDetails {
+  font-size: 0.875rem;
+  color: black;
+}
