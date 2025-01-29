@@ -13,7 +13,7 @@ Chat App written using C#, React and SQlite.
 - Admin panel for easy modifications
 
 
-# Database setup Notes
+# Database Setup Notes
 The following command should be used to enable concurency:
 ```
 PRAGMA journal_mode=WAL;
