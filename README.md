@@ -1,4 +1,4 @@
-# Chat-App
+# TeamTalk
 Chat App written using C# and React
 
 ![image](https://github.com/user-attachments/assets/87f2443f-1e03-46f6-be25-50f1c19875d7)
