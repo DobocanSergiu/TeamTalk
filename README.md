@@ -1,5 +1,5 @@
 # TeamTalk
-Chat App written using C# and React
+Chat App written using C#, React and SQlite.
 
 ![image](https://github.com/user-attachments/assets/87f2443f-1e03-46f6-be25-50f1c19875d7)
 ![image](https://github.com/user-attachments/assets/ea829f2e-c461-45e5-86bd-e25405c6d8dc)
