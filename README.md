@@ -11,3 +11,10 @@ Chat App written using C# and React
 - Easy to use UI
 - Support for multiple rooms
 - Admin panel for easy modifications
+
+
+# Database setup Notes
+The following command should be used to enable concurency:
+```
+PRAGMA journal_mode=WAL;
+```
